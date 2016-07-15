@@ -11,6 +11,6 @@ object Neo4TwitterBuild extends Build {
   lazy val neo4stream = Project("neo4stream", file("neo4stream"))
     .settings(basicSettings ++ assemblySetting)
     .settings(libraryDependencies ++= compile(neo4j, twitter, twitter4j, twitter4jStream, codec, commonio, httpclient,
-    httpcore, signpost, signcommon, logback)
+    httpcore, signpost, signcommon, logback, config)
        ++ test(scalatest))
 }
