@@ -31,4 +31,5 @@ object Dependencies {
   val signpost = "oauth.signpost" % "signpost-core" % "1.2"
   val signcommon = "oauth.signpost" % "signpost-commonshttp4" % "1.2"
   val logback = "ch.qos.logback" %  "logback-classic" % "1.1.7"
+  val config= "com.typesafe" % "config" % "1.3.0"
 }
